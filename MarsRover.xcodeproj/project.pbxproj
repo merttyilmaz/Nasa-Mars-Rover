@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5154638A26F791BB00D4D385 /* RoverData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5154638926F791BB00D4D385 /* RoverData.swift */; };
+		5154638C26F7A74100D4D385 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5154638B26F7A74100D4D385 /* UIImageViewExtension.swift */; };
+		51758C3026F8E836001A5528 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51758C2F26F8E836001A5528 /* API.swift */; };
+		51758C3326F8EA03001A5528 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51758C3126F8EA03001A5528 /* PhotosCollectionViewCell.swift */; };
+		51758C3426F8EA03001A5528 /* PhotosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51758C3226F8EA03001A5528 /* PhotosCollectionViewCell.xib */; };
 		51DDB5FC26F759AB00BC586E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DDB5FB26F759AB00BC586E /* AppDelegate.swift */; };
 		51DDB5FE26F759AB00BC586E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DDB5FD26F759AB00BC586E /* SceneDelegate.swift */; };
-		51DDB60026F759AB00BC586E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DDB5FF26F759AB00BC586E /* ViewController.swift */; };
 		51DDB60326F759AB00BC586E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DDB60126F759AB00BC586E /* Main.storyboard */; };
 		51DDB60526F759AB00BC586E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DDB60426F759AB00BC586E /* Assets.xcassets */; };
 		51DDB60826F759AB00BC586E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DDB60626F759AB00BC586E /* LaunchScreen.storyboard */; };
+		51DDB61426F786E100BC586E /* CuriosityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DDB61326F786E100BC586E /* CuriosityViewController.swift */; };
+		51DDB61626F786EF00BC586E /* OpportunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DDB61526F786EF00BC586E /* OpportunityViewController.swift */; };
+		51DDB61826F786FA00BC586E /* SpiritViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DDB61726F786FA00BC586E /* SpiritViewController.swift */; };
+		51DDB61E26F78EAD00BC586E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 51DDB61D26F78EAD00BC586E /* Alamofire */; };
+		51DDB62126F78ED600BC586E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 51DDB62026F78ED600BC586E /* Kingfisher */; };
+		51E089FB26FB8E1100DA13FA /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E089FA26FB8E1100DA13FA /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5154638926F791BB00D4D385 /* RoverData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverData.swift; sourceTree = "<group>"; };
+		5154638B26F7A74100D4D385 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		51758C2F26F8E836001A5528 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		51758C3126F8EA03001A5528 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		51758C3226F8EA03001A5528 /* PhotosCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosCollectionViewCell.xib; sourceTree = "<group>"; };
 		51DDB5F826F759AB00BC586E /* MarsRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DDB5FB26F759AB00BC586E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51DDB5FD26F759AB00BC586E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		51DDB5FF26F759AB00BC586E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51DDB60226F759AB00BC586E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51DDB60426F759AB00BC586E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51DDB60726F759AB00BC586E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51DDB60926F759AB00BC586E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51DDB61326F786E100BC586E /* CuriosityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriosityViewController.swift; sourceTree = "<group>"; };
+		51DDB61526F786EF00BC586E /* OpportunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityViewController.swift; sourceTree = "<group>"; };
+		51DDB61726F786FA00BC586E /* SpiritViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritViewController.swift; sourceTree = "<group>"; };
+		51E089FA26FB8E1100DA13FA /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +49,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51DDB62126F78ED600BC586E /* Kingfisher in Frameworks */,
+				51DDB61E26F78EAD00BC586E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51758C2E26F8E824001A5528 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				51758C2F26F8E836001A5528 /* API.swift */,
+				5154638B26F7A74100D4D385 /* UIImageViewExtension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		51DDB5EF26F759AB00BC586E = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +87,44 @@
 			children = (
 				51DDB5FB26F759AB00BC586E /* AppDelegate.swift */,
 				51DDB5FD26F759AB00BC586E /* SceneDelegate.swift */,
-				51DDB5FF26F759AB00BC586E /* ViewController.swift */,
-				51DDB60126F759AB00BC586E /* Main.storyboard */,
+				51DDB61026F75A1F00BC586E /* Model */,
+				51DDB61126F75A4000BC586E /* View */,
+				51DDB61226F75A4900BC586E /* Controller */,
+				51758C2E26F8E824001A5528 /* Helper */,
 				51DDB60426F759AB00BC586E /* Assets.xcassets */,
-				51DDB60626F759AB00BC586E /* LaunchScreen.storyboard */,
 				51DDB60926F759AB00BC586E /* Info.plist */,
 			);
 			path = MarsRover;
+			sourceTree = "<group>";
+		};
+		51DDB61026F75A1F00BC586E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5154638926F791BB00D4D385 /* RoverData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51DDB61126F75A4000BC586E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51DDB60626F759AB00BC586E /* LaunchScreen.storyboard */,
+				51DDB60126F759AB00BC586E /* Main.storyboard */,
+				51758C3126F8EA03001A5528 /* PhotosCollectionViewCell.swift */,
+				51758C3226F8EA03001A5528 /* PhotosCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51DDB61226F75A4900BC586E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51DDB61326F786E100BC586E /* CuriosityViewController.swift */,
+				51DDB61526F786EF00BC586E /* OpportunityViewController.swift */,
+				51DDB61726F786FA00BC586E /* SpiritViewController.swift */,
+				51E089FA26FB8E1100DA13FA /* PopUpViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +143,10 @@
 			dependencies = (
 			);
 			name = MarsRover;
+			packageProductDependencies = (
+				51DDB61D26F78EAD00BC586E /* Alamofire */,
+				51DDB62026F78ED600BC586E /* Kingfisher */,
+			);
 			productName = MarsRover;
 			productReference = 51DDB5F826F759AB00BC586E /* MarsRover.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +174,10 @@
 				Base,
 			);
 			mainGroup = 51DDB5EF26F759AB00BC586E;
+			packageReferences = (
+				51DDB61C26F78EAD00BC586E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				51DDB61F26F78ED600BC586E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 51DDB5F926F759AB00BC586E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51DDB60826F759AB00BC586E /* LaunchScreen.storyboard in Resources */,
+				51758C3426F8EA03001A5528 /* PhotosCollectionViewCell.xib in Resources */,
 				51DDB60526F759AB00BC586E /* Assets.xcassets in Resources */,
 				51DDB60326F759AB00BC586E /* Main.storyboard in Resources */,
 			);
@@ -137,9 +206,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51DDB60026F759AB00BC586E /* ViewController.swift in Sources */,
+				51DDB61826F786FA00BC586E /* SpiritViewController.swift in Sources */,
 				51DDB5FC26F759AB00BC586E /* AppDelegate.swift in Sources */,
+				51758C3326F8EA03001A5528 /* PhotosCollectionViewCell.swift in Sources */,
+				51DDB61426F786E100BC586E /* CuriosityViewController.swift in Sources */,
 				51DDB5FE26F759AB00BC586E /* SceneDelegate.swift in Sources */,
+				51E089FB26FB8E1100DA13FA /* PopUpViewController.swift in Sources */,
+				51DDB61626F786EF00BC586E /* OpportunityViewController.swift in Sources */,
+				5154638C26F7A74100D4D385 /* UIImageViewExtension.swift in Sources */,
+				51758C3026F8E836001A5528 /* API.swift in Sources */,
+				5154638A26F791BB00D4D385 /* RoverData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +417,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		51DDB61C26F78EAD00BC586E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+		51DDB61F26F78ED600BC586E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		51DDB61D26F78EAD00BC586E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51DDB61C26F78EAD00BC586E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		51DDB62026F78ED600BC586E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51DDB61F26F78ED600BC586E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 51DDB5F026F759AB00BC586E /* Project object */;
 }
